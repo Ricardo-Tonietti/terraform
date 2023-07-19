@@ -3,7 +3,7 @@
   - name: criando o arquivo
     copy:
       dest: /home/ubuntu/index.html
-      context: <h1>Feito com terraform e ansible</h1>
+      content: <h1>Feito com terraform e ansible</h1>
   - name: criando o servidor
     shell: "nohup busybox httpd -f -p 8080 &"
     

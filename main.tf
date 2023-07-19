@@ -20,6 +20,6 @@ resource "aws_instance" "app_server" {
   key_name      = "iac-rictonietti"
   
   tags = {
-    Name = "EC2 - Terraform"
+    Name = "ric-Terraform"
   }
 }
